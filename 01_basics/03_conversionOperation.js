@@ -38,3 +38,35 @@ let someNumber = 30
 let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+
+//================================operations=============================
+console.log("================================operations=============================")
+console.log("")
+console.log("")
+
+
+
+let value = 2
+let negvalue = -value
+console.log(negvalue)
+
+let string1 = "Hello"
+let string2 = " Subhankar"
+
+let string3 = string1+string2
+console.log(string3)
+console.log("1"+2)
+console.log("1"+2+2)
+console.log(1+2+"2")
+console.log(+true) //dont use this type of conversion
+
+
+//link to study: https://tc39.es/ecma262/2023/multipage/abstract-operations.html#sec-toprimitive
+//link to study: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+
+
+
+
