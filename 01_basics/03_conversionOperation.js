@@ -68,5 +68,12 @@ console.log(+true) //dont use this type of conversion
 
 
 
+//================================operations=============================
+console.log("================================Stricked check=============================")
+console.log("Stricked check is checking with ===")
+console.log("")
+
+console.log("2" === 2) //== is basically compare but === it is also check data type ,compareable or not
+
 
 
