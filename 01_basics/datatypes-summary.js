@@ -34,3 +34,29 @@ console.log(typeof heros)
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+
+console.log("================================Memory=============================")
+console.log("")
+console.log("")
+
+//Stack (use for all premitive data type) and Heap(use for all non-premitive/referance data type) memory
+
+let myYoutubename = "subhankartube.com"
+
+let anotherName = myYoutubename
+anotherName = "chai aur Js"
+
+console.log(myYoutubename)
+console.log(anotherName) 
+
+let userOne = {
+    emai: "mail2subha@gmail.com",
+    upi: "subha@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "subhankar@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email) 
